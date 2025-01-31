@@ -7,12 +7,23 @@
     <title>ToDo</title>
   </head>
   <body>
-    <h1>Sofiane's ToDo Liste</h1>
-    <form class="task_add_form">
-      <input type="text" class="task_desc_input" />
-      <button class="add_tesb_btn">Ajouter la tâche</button>
-    </form>
-    <ul class="task_list"></ul>
+    <div class="top_bar"><h1>Sofiane's ToDo Liste</h1></div>
+
+    <main>
+      <form class="task_add_form">
+        <input
+          type="text"
+          class="task_desc_input"
+          placeholder="Entrez une tâche"
+        />
+        <button class="add_tesb_btn" aria-label="Ajouter la tâche">
+          Ajouter la tâche
+        </button>
+      </form>
+      <div class="list_section">
+        <ul class="task_list"></ul>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,70 @@
+body {
+  background-color: #469597;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Assure que le body prend toute la hauteur de la page */
+}
+
+h1 {
+  color: #ddbeaa;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.top_bar {
+  background-color: #5ba199;
+  padding: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.tas_add_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.task_desc_input {
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 15px;
+  border: solid 2px #469597;
+  box-shadow: 7px 4px 10px #bbc6c8;
+}
+.add_tesb_btn {
+  background-color: #ddbeaa;
+  color: #469597;
+  border: solid 0px #000000;
+  display: flexbox;
+  height: 40px;
+  width: 120px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 7px 4px 7px #5ba199;
+}
+.add_tesb_btn:hover {
+  background-color: #c9a992;
+}
+
+.list_section {
+  background-color: #ededed;
+  margin: 15px;
+  height: 250px;
+  border-radius: 10px;
+  width: 100%;
+}
+.task_list li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
